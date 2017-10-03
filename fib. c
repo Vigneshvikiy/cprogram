@@ -1,10 +1,10 @@
-#include<stdioh>
+#include<stdio.h>
 void main()
 {
 int f1=0,f2=1;f,n,i;
 printf("the fibonacci series is:%d%d,f1,f2);
 printf("enter the value",n);
-for(i-2;i<=n,i++)
+for(i=2;i<=n,i++)
 {
 f=f1+f2;
 printf("%d",f);
