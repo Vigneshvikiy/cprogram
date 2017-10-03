@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
 int f1=0,f2=1;f,n,i;
 printf("the fibonacci series is:%d%d,f1,f2);
@@ -11,4 +11,5 @@ printf("%d",f);
 f1=f2;
 f2=f;
 }
+return 0;
 }
