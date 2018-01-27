@@ -11,3 +11,6 @@ for(i=0;i<len;i++)
 if(a>=0&&a<=9)
 number=number+1;
 }
+printf("there are %d numerics",number);
+return 0;
+}
