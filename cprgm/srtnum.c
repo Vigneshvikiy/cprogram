@@ -3,13 +3,13 @@ int main()
 {
 char a[10];
 int n,i;
-printf("enter the string:");
+printf("enter the string:\n");
 scanf("%s",&a);
-printf("enter the number:");
+printf("enter the number:\n");
 scanf("%d",&n);
 for(i=1;i<=n;i++)
 {
-printf("%s",a);
+printf("%s\n",a);
 }
 return 0;
 }
