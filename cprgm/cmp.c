@@ -20,11 +20,18 @@ int main()
     }
     if(temp==1)
     {
-        printf("it is same");
+        printf("%s",a);
     }
     else
     {
-        printf("no");
+      if(a[i]>b[i])
+      {
+          printf("%s",a);
+      }
+      else
+      {
+          printf("%s",b);
+      }
     }
     return 0;
 }
