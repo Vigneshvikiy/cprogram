@@ -6,7 +6,7 @@ int main()
     scanf("%d %d %d",&A,&B,&C);
     for(i=A;i<=C;i++)
     {
-        sum=sum+B;
+        sum=sum+A;
         A=A+B;
     }
     printf("sum is %d",sum);
