@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int arr[10]={1,2,3,4,5,6,7,2,8,9},i,j,c,t;
+    int arr[10]={1,2,3,4,1,5,3,2,5,2},i,j,c,t;
     for(i=0;i<10;i++)
     {
         c=0;
@@ -12,11 +12,10 @@ int main()
                 c++;
             }
         }
-        if(c>0)
+        if(c==0)
         {
-            t=arr[i];
+           printf("%d",arr[i]);
         }
     }
-    printf("%d",t);
     return 0;
 }
